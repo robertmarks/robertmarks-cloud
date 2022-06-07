@@ -1,0 +1,27 @@
+backend:
+  name: github
+  repo: robertmarks/robertmarks-cloud
+  branch: main
+  base_url: https://robcloudauth.azurewebsites.net
+
+publish_mode: editorial_workflow
+
+media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "content/posts"
+    slug: "{{fields.title}}"
+    path: "{{year}}/{{slug}}/index"
+    create: true
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}      
+      - {label: "Draft", name: "draft", widget: "boolean"}
+      - {label: "ToC", name: "toc", widget: "boolean"}
+      - {label: "Images", name: "images", widget: "list"}
+      - {label: "Tags", name: "tags", widget: "list"}
+      - {label: "Hidden", name: "hidden", widget: "boolean"}
+      - {label: "Body", name: "body", widget: "markdown"}
