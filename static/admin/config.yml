@@ -2,7 +2,7 @@ backend:
   name: github
   repo: robertmarks/robertmarks-cloud
   branch: main
-  base_url: https://robcloudauth.azurewebsites.net
+#   base_url: https://robcloudauth.azurewebsites.net
 
 publish_mode: editorial_workflow
 
