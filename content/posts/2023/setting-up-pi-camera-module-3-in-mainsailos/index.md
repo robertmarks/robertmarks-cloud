@@ -11,7 +11,7 @@ hidden: false
 ---
 I﻿ recently decided to pick up a Pi Camera Module 3 to add to use with Mainsail for my Ender S1... Unfortunately this wasn't as straight forward as I was hoping for it to be.
 
-A﻿s it turns out, the camera module 3 isn't supported in crowsnest as yet - but someone has created Spyglass to act as a middleware layer allowing you to add a camera into Mainsail.
+A﻿s it turns out, the camera module 3 isn't supported in crowsnest as yet - but someone has created [Spyglass](https://github.com/roamingthings/spyglass) to act as a middleware layer allowing you to add a camera into Mainsail.
 
 T﻿o start with, you need to make sure you meet the prerequisites as below:
 
