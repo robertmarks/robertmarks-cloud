@@ -7,7 +7,6 @@ tags:
   - mainsailos
   - pi camera 3
   - spyglass
-  - ""
 hidden: false
 ---
 I﻿ recently decided to pick up a Pi Camera Module 3 to add to use with Mainsail for my Ender S1... Unfortunately this wasn't as straight forward as I was hoping for it to be.
