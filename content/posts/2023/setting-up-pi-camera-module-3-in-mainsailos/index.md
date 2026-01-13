@@ -9,6 +9,13 @@ tags:
   - spyglass
 hidden: false
 ---
+
+> ⚠️ This post is over a year old.
+>
+> ⚠️ Please refer to [How to setup a Raspicam?](https://crowsnest.mainsail.xyz/faq/how-to-setup-a-raspicam) for more relevant information.
+
+---
+
 I﻿ recently decided to pick up a Pi Camera Module 3 to add to use with Mainsail for my Ender S1... Unfortunately this wasn't as straight forward as I was hoping for it to be.
 
 A﻿s it turns out, the camera module 3 isn't supported in crowsnest as yet - but someone has created [Spyglass](https://github.com/roamingthings/spyglass) to act as a middleware layer allowing you to add a camera into Mainsail.
@@ -74,5 +81,4 @@ A﻿lright, now, still in the spyglass directory run `make install` and then reb
 
 T﻿hat's about it. You've got your Pi Camera Module 3 setup and available. Now you can edit your `spyglass.conf` under your config directory to set things such as the resolution. Hopefully crowsnest supports the Camera 3 soon, but in the meantime, there's Spyglass.
 
-T﻿ill next time...
-K﻿eep on keepin' on. Peace.
+✌️
